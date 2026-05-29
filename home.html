@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <link rel="icon" type="image/png" href="Imagens/joystick.png" />
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,12 +20,19 @@
   </head>
 
   <body>
+    <div class="crt"></div>
+
+    <div class="scanline"></div>
+
+    <div class="stars"></div>
+
     <nav class="navbar">
       <div class="logo">ARCADEZONE</div>
 
       <ul class="nav-links">
         <li><a href="home.html">Início</a></li>
         <li><a href="jogos.html">Jogos</a></li>
+        <li><a href="hall.html">Hall da Fama</a></li>
         <li><a href="#eventos">Eventos</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
@@ -32,6 +40,9 @@
 
     <section class="hero">
       <div class="grid"></div>
+
+      <div class="glow glow1"></div>
+      <div class="glow glow2"></div>
 
       <div class="hero-content">
         <h1 class="neon" data-text="RETRÔ É AQUI">RETRÔ É AQUI</h1>
@@ -43,7 +54,22 @@
         </a>
       </div>
     </section>
+    <section class="terminal-section">
+      <div class="terminal">
+        <div class="terminal-top">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
 
+        <div class="terminal-body">
+          <p>> Iniciando ArcadeZone...</p>
+          <p>> Carregando jogos clássicos...</p>
+          <p>> Conectando players...</p>
+          <p>> Sistema online.</p>
+        </div>
+      </div>
+    </section>
     <section class="sobre">
       <div class="container">
         <h2>Sobre</h2>
@@ -199,7 +225,62 @@
         <button class="btn-arcade">JOGAR AGORA</button>
       </div>
     </section>
+    <section class="timeline">
+      <div class="container">
+        <h2>Evolução dos Arcades</h2>
 
+        <div class="timeline-container">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>1972</h3>
+              <p>Pong inicia a era dos jogos arcade.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>1980</h3>
+              <p>Pac-Man se torna fenômeno mundial.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>1992</h3>
+              <p>Mortal Kombat revoluciona os fliperamas.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2026</h3>
+              <p>ArcadeZone revive a nostalgia retrô.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mapa">
+      <div class="container">
+        <h2>Arcades Pelo Mundo</h2>
+
+        <div class="mapa-box">
+          <img src="Imagens/world-map.png" alt="Mapa Arcade" />
+
+          <div class="pin pin1">
+            <span>Tokyo</span>
+          </div>
+
+          <div class="pin pin2">
+            <span>New York</span>
+          </div>
+
+          <div class="pin pin3">
+            <span>São Paulo</span>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
       <p>© 2026 ArcadeZone</p>
     </footer>
