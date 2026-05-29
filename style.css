@@ -176,8 +176,8 @@ body::before {
 
   text-shadow:
     0 0 10px #ffff00,
-    0 0 30px #ffff00,
-    0 0 60px #ffff00;
+    0 0 30px #ffffff,
+    0 0 60px #000000;
 
   margin-bottom: 16px;
 
