@@ -7,16 +7,11 @@
 
     <title>ArcadeZone</title>
 
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
 
@@ -24,29 +19,22 @@
   </head>
 
   <body>
-    <!-- NAVBAR -->
-
     <nav class="navbar">
       <div class="logo">ARCADEZONE</div>
 
       <ul class="nav-links">
         <li><a href="#">Início</a></li>
-
         <li><a href="jogos.html">Jogos</a></li>
-
-        <li><a href="#">Eventos</a></li>
-
-        <li><a href="#">Contato</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-
-    <!-- HERO -->
 
     <section class="hero">
       <div class="grid"></div>
 
       <div class="hero-content">
-        <h1 class="neon">RETRÔ É AQUI</h1>
+        <h1 class="neon" data-text="RETRÔ É AQUI">RETRÔ É AQUI</h1>
 
         <p class="neon-sub">A experiência arcade que você sentia falta</p>
 
@@ -55,8 +43,6 @@
         </a>
       </div>
     </section>
-
-    <!-- SOBRE -->
 
     <section class="sobre">
       <div class="container">
@@ -69,16 +55,18 @@
               retrô.
             </p>
 
-            <p>Campeonatos, eventos e jogos icônicos.</p>
+            <p>
+              Campeonatos, eventos especiais e os maiores clássicos dos anos 80
+              e 90.
+            </p>
           </div>
 
           <div class="imagem-flutuante">
-            <img src="Imagens/Hero-Index.jpg" alt="" />
+            <img src="Imagens/Hero-Index.jpg" alt="Arcade" />
           </div>
         </div>
       </div>
     </section>
-    <!-- STATS -->
 
     <section class="stats">
       <div class="container">
@@ -105,7 +93,6 @@
         </div>
       </div>
     </section>
-    <!-- RANKING -->
 
     <section class="ranking">
       <div class="container">
@@ -141,28 +128,25 @@
         </div>
       </div>
     </section>
-    <!-- GALERIA -->
 
     <section class="galeria">
       <div class="container">
         <h2>Galeria Retrô</h2>
 
         <div class="galeria-grid">
-          <img src="Imagens/Galeria-1.jpg" />
-
-          <img src="Imagens/Galeria-2.png" />
-
-          <img src="Imagens/Galeria-3.webp" />
+          <img src="Imagens/Galeria-1.jpg" alt="Galeria" />
+          <img src="Imagens/Galeria-2.png" alt="Galeria" />
+          <img src="Imagens/Galeria-3.webp" alt="Galeria" />
 
           <img
             src="https://images.unsplash.com/photo-1511882150382-421056c89033?q=80&w=1200&auto=format&fit=crop"
+            alt="Arcade"
           />
         </div>
       </div>
     </section>
-    <!-- EVENTOS -->
 
-    <section class="eventos">
+    <section class="eventos" id="eventos">
       <div class="container">
         <h2>Eventos</h2>
 
@@ -184,7 +168,6 @@
         </div>
       </div>
     </section>
-    <!-- DEPOIMENTOS -->
 
     <section class="depoimentos">
       <div class="container">
@@ -193,34 +176,29 @@
         <div class="depoimentos-grid">
           <div class="depoimento-card">
             <p>"Melhor experiência retrô que já vi."</p>
-
             <h4>— Lucas</h4>
           </div>
 
           <div class="depoimento-card">
             <p>"Parece um arcade real dos anos 90."</p>
-
             <h4>— Mariana</h4>
           </div>
 
           <div class="depoimento-card">
             <p>"Visual simplesmente absurdo."</p>
-
             <h4>— Rafael</h4>
           </div>
         </div>
       </div>
     </section>
-    <!-- CTA -->
 
-    <section class="cta">
+    <section class="cta" id="contato">
       <div class="container">
         <h2>PRONTO PARA VOLTAR AOS ANOS 90?</h2>
 
         <button class="btn-arcade">JOGAR AGORA</button>
       </div>
     </section>
-    <!-- FOOTER -->
 
     <footer class="footer">
       <p>© 2026 ArcadeZone</p>
